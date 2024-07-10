@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+@media (min-width: 360px) {
+    body {
+        font-family: Tahoma;
+        margin: 20px;
+        max-width: 95%;
+        height: 1380px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 10px;
+        font-family: Tahoma;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container h4 {
+        font-size: 15px;
+    }
+
+    .container li {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-indent: 20px;
+        padding-bottom: 5px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 300px;
+        margin-top: 45px;
+    }
+
+    .button-inicial button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-inicial a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-inicial button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 10px;
+        margin-top: 45px;
+    }
+
+    .button-retornar button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-retornar a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-retornar button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .rodape hr {
+        width: 272px;
+        margin-left: 130px;
+        margin-top: -22px;
+    }
+
+    .rodape1 {
+        margin-left: 380px;
+        margin-top: -45px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-family: Tahoma;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 900px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container h4 {
+        margin-top: -8px;
+        font-size: 15px;
+    }
+
+    .container li {
+        margin-bottom: 18px;
+    }
+
+    .text4 {
+        margin-top: 10px;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-indent: 20px;
+        margin-top: -15px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 950px;
+        margin-top: 75px;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 10px;
+        margin-top: 75px;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-top: 35px;
+        margin-left: -10px;
+    }
+
+    .rodape hr {
+        width: 900px;
+        margin-left: 155px;
+        margin-top: -27px;
+    }
+
+    .rodape1 {
+        margin-left: 1032px;
+        margin-top: -75px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        font-family: Tahoma;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 800px;
+        max-width: 80%;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container h4 {
+        margin-top: -8px;
+        font-size: 15px;
+    }
+
+    .container li {
+        margin-bottom: 18px;
+    }
+
+    .text4 {
+        margin-top: 10px;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-indent: 20px;
+        margin-top: -15px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 950px;
+        margin-top: 75px;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 10px;
+        margin-top: 75px;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-top: 35px;
+        margin-left: -10px;
+    }
+
+    .rodape hr {
+        width: 900px;
+        margin-left: 155px;
+        margin-top: -27px;
+    }
+
+    .rodape1 {
+        margin-left: 1032px;
+        margin-top: -75px;
+    }
+}

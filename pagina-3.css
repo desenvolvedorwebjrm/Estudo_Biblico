@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+@media (min-width: 360px){
+    body {
+        font-family: Tahoma;
+        margin: 10px;
+        text-align: justify;
+        border: 1px solid gray;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        height: 980px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .text1 h2 {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    .text1 ul li {
+        margin-bottom: 8px;
+        margin-right: 8px;
+    }
+
+    .text1 img {
+        width: 400px;
+        margin-left: 30px;
+        box-shadow: 1px 1px 3px 3px gray;
+        height: 200px;
+    }
+
+    .text1 p {
+        margin-right: 8px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 340px;
+        margin-top: 85px;
+    }
+
+    .button-inicial button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-inicial a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-inicial button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 10px;
+        margin-top: 85px;
+    }
+
+    .button-retornar button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-retornar a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-retornar button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .rodape hr {
+        width: 265px;
+        margin-left: 165px;
+        margin-top: -20px;
+    }
+
+    .rodape1 {
+        margin-left: 432px;
+        margin-top: -48px;
+    }
+}
+
+/* inicio para tablet e note*/
+
+@media (min-width: 768px){
+    body {
+        font-family: Tahoma;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        text-align: justify;
+        border: 1px solid gray;
+        width: 85%;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        padding: 10px;
+        height: 700px;
+    }
+
+    .text1 img {
+        margin-left: 300px;
+        margin-top: 10px;
+        width: 600px;
+    }
+
+    .text1 p {
+        margin-right: 200px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 920px;
+        margin-top: 75px;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 20px;
+        margin-top: 75px;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .rodape hr {
+        width: 850px;
+        margin-left: 165px;
+        margin-top: -20px;
+    }
+
+    .rodape1 {
+        margin-left: 1020px;
+        margin-top: -48px;
+    }
+}
+
+/* inicio para telas grandes*/
+
+@media (min-width: 1024px){
+    body {
+        font-family: Tahoma;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        text-align: justify;
+        border: 1px solid gray;
+        width: 85%;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        padding: 10px;
+        height: 700px;
+    }
+
+    .text1 img {
+        margin-left: 300px;
+        margin-top: 10px;
+        width: 600px;
+    }
+
+    .text1 p {
+        margin-right: 200px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        width: 115px;
+        margin-left: 920px;
+        margin-top: 75px;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 20px;
+        margin-top: 75px;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .rodape hr {
+        width: 850px;
+        margin-left: 165px;
+        margin-top: -20px;
+    }
+
+    .rodape1 {
+        margin-left: 1020px;
+        margin-top: -48px;
+    }
+}

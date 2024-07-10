@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+@media (min-width: 360px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid gray;
+        text-align: justify;
+        height: 500px;
+    }
+
+    #logo {
+        width: 420px;
+        height: 200px;
+        box-shadow: 1px 1px 2px 1px gray;
+    }
+    
+    #texto-inicial {
+        font-family: Tahoma;
+        text-indent: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .button-inicial {
+        width: 115px;
+        margin-left: 310px;
+        margin-top: 90px;
+    }
+
+    .button-inicial button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-inicial a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-inicial button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    /* inicio do rodape*/
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: -80px;
+    }
+
+    .rodape hr {
+        width: 275px;
+        margin-left: 145px;
+        margin-top: -20px;
+    }
+
+    .rodape1 {
+        margin-left: 422px;
+        margin-top: 64px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid gray;
+        text-align: justify;
+        height: 600px;
+    }
+
+    #logo {
+        width: 700px;
+        padding: 50px;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+
+    #texto-inicial {
+        width: auto;
+        padding: 20px 20px 20px 20px;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .button-inicial {
+        margin-left: 1100px;
+    }
+
+    /* inicio do rodape */
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 260px;
+    }
+
+    .rodape hr {
+        margin-left: 405px;
+        width: 630px;
+    }
+
+    .rodape1 {
+        margin-left: 1037px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        margin: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border: 1px solid gray;
+        text-align: justify;
+        height: 550px;
+    }
+
+    #logo {
+        width: 700px;
+        padding: 50px;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+
+    #texto-inicial {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .button-inicial {
+        position: absolute;
+        margin-left: 1000px;
+        margin-top: 50px;
+    }
+
+    /* inicio do rodape */
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
+    .rodape hr {
+        margin-left: 295px;
+        width: 740px;
+    }
+
+    .rodape1 {
+        margin-left: 1037px;
+        margin-top: -33px;
+    }
+}

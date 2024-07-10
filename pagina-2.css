@@ -1,0 +1,422 @@
+@charset "utf-8";
+
+@media (min-width: 360px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid gray;
+        text-align: justify;
+        height: 1090px;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        font-size: 13px;
+        margin-top: -30px;
+    }
+
+    .text2 h4 {
+        font-family: Tahoma;
+        margin-top: -10px;
+    }
+
+    .text2 p {
+        font-family: Tahoma;
+        margin-top: -18px;
+        text-indent: 30px;
+    }
+
+    .text3 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text3 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text4 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text4 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text5 {
+        font-family: Tahoma;
+        font-size: 13px;
+    }
+
+    .text6 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text6 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text7 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text7 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text8 {
+        font-family: Tahoma;
+        font-size: 13px;   
+    }
+
+    .text9 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text9 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .button-inicial {
+        width: 115px;
+        margin-left: 290px;
+        margin-top: 60px;
+    }
+
+    .button-inicial button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-inicial a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-inicial button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .button-retornar {
+        position: absolute;
+        width: 115px;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+
+    .button-retornar button {
+        background-color: rgba(100, 148, 237, 0.479);
+        border-radius: 8px;
+    }
+
+    .button-retornar a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-retornar button:hover {
+        text-decoration: underline;
+        background-color: cornflowerblue;
+    }
+
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: -65px;
+    }
+
+    .rodape hr {
+        width: 250px;
+        margin-left: 145px;
+        margin-top: -20px;
+    }
+
+    .rodape1 {
+        margin-left: 400px;
+        margin-top: 49px;
+    }
+}
+
+/* inicio de tela grande*/
+
+@media (min-width: 768px) {
+    body {
+        margin: 50px;
+        border: 1px solid gray;
+        height: 650px;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        font-size: 15px;
+    }
+
+    .text2 h4 {
+        font-family: Tahoma;
+        font-size: 13px;
+    }
+
+    .text2 p {
+        font-family: Tahoma;
+        margin-top: -18px;
+        text-indent: 30px;
+    }
+
+    .text3 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text3 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text4 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text4 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text5 {
+        font-family: Tahoma;
+        font-size: 13px;
+    }
+
+    .text6 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text6 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text7 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text7 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text8 {
+        font-family: Tahoma;
+        font-size: 13px;   
+    }
+
+    .text9 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text9 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .button-inicial {
+        margin-left: 1050px;
+        margin-top: 70px;
+    }
+
+    .button-retornar {
+        position: relative;
+        margin-top: -22px;
+        margin-left: 20px;
+    }
+    
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 180px;
+    }
+
+    .rodape hr {
+        margin-left: 405px;
+        width: 630px;
+    }
+
+    .rodape1 {
+        margin-left: 1037px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin: 50px;
+        border: 1px solid gray;
+        height: 650px;
+    }
+
+    .text1 {
+        font-family: Tahoma;
+        font-size: 15px;
+    }
+
+    .text2 h4 {
+        font-family: Tahoma;
+        font-size: 13px;
+    }
+
+    .text2 p {
+        font-family: Tahoma;
+        margin-top: -18px;
+        text-indent: 30px;
+    }
+
+    .text3 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text3 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text4 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text4 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text5 {
+        font-family: Tahoma;
+        font-size: 13px;
+    }
+
+    .text6 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text6 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text7 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .text7 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .text8 {
+        font-family: Tahoma;
+        font-size: 13px;   
+    }
+
+    .text9 h4 {
+        font-family: Tahoma;
+        width: 480px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text9 p {
+        font-family: Tahoma;
+        font-size: 14px;
+        text-indent: 30px;
+        margin-top: -15px;
+    }
+
+    .button-inicial {
+        margin-left: 1050px;
+        margin-top: 70px;
+    }
+
+    .button-retornar {
+        position: relative;
+        margin-top: -22px;
+        margin-left: 20px;
+    }
+    
+    .rodape p {
+        font-family: Tahoma;
+        font-size: 18px;
+        margin-left: 180px;
+    }
+
+    .rodape hr {
+        margin-left: 405px;
+        width: 630px;
+    }
+
+    .rodape1 {
+        margin-left: 1037px;
+    }
+}
